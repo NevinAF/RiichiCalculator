@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f09f279848e42cea259348b13bce4c5, type: 3}
+  m_Name: IdLabelConfig
+  m_EditorClassIdentifier: 
+  m_LabelEntries:
+  - label: book_dorkdiaries_aladdin
+    id: 1
+    hierarchyRelation: 0
+  - label: candy_minipralines_lindt
+    id: 2
+    hierarchyRelation: 0
+  - label: candy_raffaello_confetteria
+    id: 3
+    hierarchyRelation: 0
+  - label: cereal_capn_crunch
+    id: 4
+    hierarchyRelation: 0
+  - label: cereal_cheerios_honeynut
+    id: 5
+    hierarchyRelation: 0
+  - label: cereal_corn_flakes
+    id: 6
+    hierarchyRelation: 0
+  - label: cereal_cracklinoatbran_kelloggs
+    id: 7
+    hierarchyRelation: 0
+  - label: cereal_oatmealsquares_quaker
+    id: 8
+    hierarchyRelation: 0
+  - label: cereal_puffins_barbaras
+    id: 9
+    hierarchyRelation: 0
+  - label: cereal_raisin_bran
+    id: 10
+    hierarchyRelation: 0
+  - label: cereal_rice_krispies
+    id: 11
+    hierarchyRelation: 0
+  - label: chips_gardensalsa_sunchips
+    id: 12
+    hierarchyRelation: 0
+  - label: chips_sourcream_lays
+    id: 13
+    hierarchyRelation: 0
+  - label: cleaning_freegentle_tide
+    id: 14
+    hierarchyRelation: 0
+  - label: cleaning_snuggle_henkel
+    id: 15
+    hierarchyRelation: 0
+  - label: cracker_honeymaid_nabisco
+    id: 16
+    hierarchyRelation: 0
+  - label: cracker_lightrye_wasa
+    id: 17
+    hierarchyRelation: 0
+  - label: cracker_triscuit_avocado
+    id: 18
+    hierarchyRelation: 0
+  - label: cracker_zwieback_brandt
+    id: 19
+    hierarchyRelation: 0
+  - label: craft_yarn_caron
+    id: 20
+    hierarchyRelation: 0
+  - label: drink_adrenaline_shock
+    id: 21
+    hierarchyRelation: 0
+  - label: drink_coffeebeans_kickinghorse
+    id: 22
+    hierarchyRelation: 0
+  - label: drink_greentea_itoen
+    id: 23
+    hierarchyRelation: 0
+  - label: drink_orangejuice_minutemaid
+    id: 24
+    hierarchyRelation: 0
+  - label: drink_whippingcream_lucerne
+    id: 25
+    hierarchyRelation: 0
+  - label: footware_slippers_disney
+    id: 26
+    hierarchyRelation: 0
+  - label: hygiene_poise_pads
+    id: 27
+    hierarchyRelation: 0
+  - label: lotion_essentially_nivea
+    id: 28
+    hierarchyRelation: 0
+  - label: lotion_vanilla_nivea
+    id: 29
+    hierarchyRelation: 0
+  - label: pasta_lasagne_barilla
+    id: 30
+    hierarchyRelation: 0
+  - label: pest_antbaits_terro
+    id: 31
+    hierarchyRelation: 0
+  - label: porridge_grits_quaker
+    id: 32
+    hierarchyRelation: 0
+  - label: seasoning_canesugar_candh
+    id: 33
+    hierarchyRelation: 0
+  - label: snack_biscotti_ghiott
+    id: 34
+    hierarchyRelation: 0
+  - label: snack_breadsticks_nutella
+    id: 35
+    hierarchyRelation: 0
+  - label: snack_chips_pringles
+    id: 36
+    hierarchyRelation: 0
+  - label: snack_coffeecakes_hostess
+    id: 37
+    hierarchyRelation: 0
+  - label: snack_cookie_famousamos
+    id: 38
+    hierarchyRelation: 0
+  - label: snack_cookie_petitecolier
+    id: 39
+    hierarchyRelation: 0
+  - label: snack_cookie_quadratini
+    id: 40
+    hierarchyRelation: 0
+  - label: snack_cookie_waffeletten
+    id: 41
+    hierarchyRelation: 0
+  - label: snack_cookie_walkers
+    id: 42
+    hierarchyRelation: 0
+  - label: snack_cookies_fourre
+    id: 43
+    hierarchyRelation: 0
+  - label: snack_granolabar_kashi
+    id: 44
+    hierarchyRelation: 0
+  - label: snack_granolabar_kind
+    id: 45
+    hierarchyRelation: 0
+  - label: snack_granolabar_naturevalley
+    id: 46
+    hierarchyRelation: 0
+  - label: snack_granolabar_quaker
+    id: 47
+    hierarchyRelation: 0
+  - label: snack_salame_hillshire
+    id: 48
+    hierarchyRelation: 0
+  - label: soup_chickenenchilada_progresso
+    id: 49
+    hierarchyRelation: 0
+  - label: soup_tomato_pacific
+    id: 50
+    hierarchyRelation: 0
+  - label: storage_ziploc_sandwich
+    id: 51
+    hierarchyRelation: 0
+  - label: toiletry_tissue_softly
+    id: 52
+    hierarchyRelation: 0
+  - label: toiletry_toothpaste_colgate
+    id: 53
+    hierarchyRelation: 0
+  - label: toy_cat_melissa
+    id: 54
+    hierarchyRelation: 0
+  - label: utensil_candle_decorators
+    id: 55
+    hierarchyRelation: 0
+  - label: utensil_coffee_filters
+    id: 56
+    hierarchyRelation: 0
+  - label: utensil_cottonovals_signaturecare
+    id: 57
+    hierarchyRelation: 0
+  - label: utensil_papertowels_valuecorner
+    id: 58
+    hierarchyRelation: 0
+  - label: utensil_toiletpaper_scott
+    id: 59
+    hierarchyRelation: 0
+  - label: utensil_trashbag_valuecorner
+    id: 60
+    hierarchyRelation: 0
+  - label: vitamin_centrumsilver_adults
+    id: 61
+    hierarchyRelation: 0
+  - label: vitamin_centrumsilver_men
+    id: 62
+    hierarchyRelation: 0
+  - label: vitamin_centrumsilver_woman
+    id: 63
+    hierarchyRelation: 0
+  autoAssignIds: 1
+  startingLabelId: 1

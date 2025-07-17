@@ -1,0 +1,43 @@
+data/
+output/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+*.conda
+*.env
+
+# VS Code
+.vscode/
+
+# Anaconda
+*.anaconda_backup
+anaconda3/
+miniconda3/
+*.condarc
+*.conda
+
+# YOLO training outputs
+runs/
+*.pt
+*.onnx
+*.engine
+*.log
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.bak
+*.tmp
+*.swp

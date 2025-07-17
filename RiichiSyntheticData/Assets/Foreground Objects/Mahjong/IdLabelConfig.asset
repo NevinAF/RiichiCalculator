@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f09f279848e42cea259348b13bce4c5, type: 3}
+  m_Name: IdLabelConfig
+  m_EditorClassIdentifier: 
+  m_LabelEntries:
+  - label: 1 Bamboo
+    id: 1
+    hierarchyRelation: 0
+  - label: 2 Bamboo
+    id: 2
+    hierarchyRelation: 0
+  - label: 3 Bamboo
+    id: 3
+    hierarchyRelation: 0
+  - label: 4 Bamboo
+    id: 4
+    hierarchyRelation: 0
+  - label: 5 Bamboo
+    id: 5
+    hierarchyRelation: 0
+  - label: Red 5 Bamboo
+    id: 6
+    hierarchyRelation: 0
+  - label: 6 Bamboo
+    id: 7
+    hierarchyRelation: 0
+  - label: 7 Bamboo
+    id: 8
+    hierarchyRelation: 0
+  - label: 8 Bamboo
+    id: 9
+    hierarchyRelation: 0
+  - label: 9 Bamboo
+    id: 10
+    hierarchyRelation: 0
+  - label: 1 Character
+    id: 11
+    hierarchyRelation: 0
+  - label: 2 Character
+    id: 12
+    hierarchyRelation: 0
+  - label: 3 Character
+    id: 13
+    hierarchyRelation: 0
+  - label: 4 Character
+    id: 14
+    hierarchyRelation: 0
+  - label: 5 Character
+    id: 15
+    hierarchyRelation: 0
+  - label: Red 5 Character
+    id: 16
+    hierarchyRelation: 0
+  - label: 6 Character
+    id: 17
+    hierarchyRelation: 0
+  - label: 7 Character
+    id: 18
+    hierarchyRelation: 0
+  - label: 8 Character
+    id: 19
+    hierarchyRelation: 0
+  - label: 9 Character
+    id: 20
+    hierarchyRelation: 0
+  - label: 1 Dot
+    id: 21
+    hierarchyRelation: 0
+  - label: 2 Dot
+    id: 22
+    hierarchyRelation: 0
+  - label: 3 Dot
+    id: 23
+    hierarchyRelation: 0
+  - label: 4 Dot
+    id: 24
+    hierarchyRelation: 0
+  - label: 5 Dot
+    id: 25
+    hierarchyRelation: 0
+  - label: Red 5 Dot
+    id: 26
+    hierarchyRelation: 0
+  - label: 6 Dot
+    id: 27
+    hierarchyRelation: 0
+  - label: 7 Dot
+    id: 28
+    hierarchyRelation: 0
+  - label: 8 Dot
+    id: 29
+    hierarchyRelation: 0
+  - label: 9 Dot
+    id: 30
+    hierarchyRelation: 0
+  - label: Green Dragon
+    id: 31
+    hierarchyRelation: 0
+  - label: Red Dragon
+    id: 32
+    hierarchyRelation: 0
+  - label: White Dragon
+    id: 33
+    hierarchyRelation: 0
+  - label: East Wind
+    id: 34
+    hierarchyRelation: 0
+  - label: South Wind
+    id: 35
+    hierarchyRelation: 0
+  - label: West Wind
+    id: 36
+    hierarchyRelation: 0
+  - label: North Wind
+    id: 37
+    hierarchyRelation: 0
+  - label: Tile Back
+    id: 38
+    hierarchyRelation: 0
+  autoAssignIds: 1
+  startingLabelId: 1
