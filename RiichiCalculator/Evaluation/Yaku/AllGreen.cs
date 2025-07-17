@@ -16,7 +16,7 @@ namespace RiichiCalculator
     {
         public readonly Wins AllGreen()
         {
-            const uint green = (uint)(TileFlags.Sou | TileFlags.Two | TileFlags.Three | TileFlags.Four | TileFlags.Six | TileFlags.Eight | TileFlags.GreenDragon);
+            const uint green = (uint)(TileFlags.Bamboo | TileFlags.Two | TileFlags.Three | TileFlags.Four | TileFlags.Six | TileFlags.Eight | TileFlags.GreenDragon);
 
             return (Hand & TileFlags.Tiles).IsSubsetOf((TileFlags)green)
                 ? WinCatalog.AllGreen

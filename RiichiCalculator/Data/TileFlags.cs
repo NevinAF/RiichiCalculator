@@ -60,14 +60,14 @@ namespace RiichiCalculator
         Honors = Winds | Dragons,
 
         /// <summary> Represents the Man suit, commonly known as Characters. </summary>
-        Man = 1 << TileExtensions.INDEX_MAN,
+        Char = 1 << TileExtensions.INDEX_CHAR,
         /// <summary> Represents the Pin suit, commonly known as Dots. </summary>
-        Pin = 1 << TileExtensions.INDEX_PIN,
+        Dot = 1 << TileExtensions.INDEX_DOT,
         /// <summary> Represents the Sou suit, commonly known as Bamboos. </summary>
-        Sou = 1 << TileExtensions.INDEX_SOU,
+        Bamboo = 1 << TileExtensions.INDEX_BAMBOO,
 
         /// <summary> Represents all numbered suits, including Man, Pin, and Sou. </summary>
-        NumberSuits = Man | Pin | Sou,
+        NumberSuits = Char | Dot | Bamboo,
 
         RedFive = 1 << TileExtensions.INDEX_REDDORA,
 
@@ -100,9 +100,9 @@ namespace RiichiCalculator
         public const int INDEX_WHITEDRAGON = 14;
         public const int INDEX_GREENDRAGON = 15;
         public const int INDEX_REDDRAGON = 16;
-        public const int INDEX_MAN = 17;
-        public const int INDEX_PIN = 18;
-        public const int INDEX_SOU = 19;
+        public const int INDEX_CHAR = 17;
+        public const int INDEX_DOT = 18;
+        public const int INDEX_BAMBOO = 19;
         public const int INDEX_EASTSEAT = 20;
         public const int INDEX_SOUTHSEAT = 21;
         public const int INDEX_WESTSEAT = 22;
@@ -113,17 +113,17 @@ namespace RiichiCalculator
         public const int INDEX_RANKS = INDEX_ONE;
         public const int INDEX_RANKS_END = INDEX_REDDRAGON;
         public const int INDEX_SUITS = INDEX_BACK;
-        public const int INDEX_SUITS_END = INDEX_SOU;
+        public const int INDEX_SUITS_END = INDEX_BAMBOO;
 
         public const int INDEX_NUMRANKS = INDEX_ONE;
-        public const int INDEX_NUMSUITS = INDEX_MAN;
+        public const int INDEX_NUMSUITS = INDEX_CHAR;
         public const int INDEX_WINDS = INDEX_EASTWIND;
         public const int INDEX_DRAGONS = INDEX_WHITEDRAGON;
         public const int INDEX_SEATS = INDEX_EASTSEAT;
 
         public const int COUNT_RANKLESS = INDEX_NUMSUITS - INDEX_SUITS;
         public const int COUNT_NUMRANKS = INDEX_NINE - INDEX_ONE + 1;
-        public const int COUNT_NUMSUITS = INDEX_SOU - INDEX_MAN + 1;
+        public const int COUNT_NUMSUITS = INDEX_BAMBOO - INDEX_CHAR + 1;
         public const int COUNT_UNIQUE_TYPES = COUNT_RANKLESS + (COUNT_NUMRANKS * COUNT_NUMSUITS);
 
 
@@ -146,8 +146,8 @@ namespace RiichiCalculator
         /// <summary>
         /// Although the order technically does not matter, it is important that each of the suits are different and contiguous.
         /// </summary>
-        const byte seq_num_suits = INDEX_MAN + 1 == INDEX_PIN &&
-            INDEX_PIN + 1 == INDEX_SOU ? 0 : -1;
+        const byte seq_num_suits = INDEX_CHAR + 1 == INDEX_DOT &&
+            INDEX_DOT + 1 == INDEX_BAMBOO ? 0 : -1;
 
         const byte num_after_rankless = INDEX_NUMSUITS > INDEX_WINDS &&
             INDEX_NUMSUITS > INDEX_BACK &&
@@ -193,9 +193,9 @@ namespace RiichiCalculator
             INDEX_REDDRAGON +
             INDEX_GREENDRAGON +
             INDEX_WHITEDRAGON +
-            INDEX_MAN +
-            INDEX_PIN +
-            INDEX_SOU) == (INDEX_SUITS_END - INDEX_SUITS + 1) * (INDEX_SUITS_END + INDEX_SUITS) / 2 ? 0 : -1;
+            INDEX_CHAR +
+            INDEX_DOT +
+            INDEX_BAMBOO) == (INDEX_SUITS_END - INDEX_SUITS + 1) * (INDEX_SUITS_END + INDEX_SUITS) / 2 ? 0 : -1;
 
     #pragma warning restore IDE0051
     #endif

@@ -42,12 +42,12 @@ namespace RiichiCalculator
         #endif
 
             // Check to make sure all numbered tiles are present (and help with deducing the wait).
-            if (counts[TileFlags.Man | TileFlags.One] == 0 ||
-                counts[TileFlags.Pin | TileFlags.One] == 0 ||
-                counts[TileFlags.Sou | TileFlags.One] == 0 ||
-                counts[TileFlags.Man | TileFlags.Nine] == 0 ||
-                counts[TileFlags.Pin | TileFlags.Nine] == 0 ||
-                counts[TileFlags.Sou | TileFlags.Nine] == 0) {
+            if (counts[TileFlags.Char | TileFlags.One] == 0 ||
+                counts[TileFlags.Dot | TileFlags.One] == 0 ||
+                counts[TileFlags.Bamboo | TileFlags.One] == 0 ||
+                counts[TileFlags.Char | TileFlags.Nine] == 0 ||
+                counts[TileFlags.Dot | TileFlags.Nine] == 0 ||
+                counts[TileFlags.Bamboo | TileFlags.Nine] == 0) {
                 return WinCatalog.None; // Missing a numbered tile.
             }
 

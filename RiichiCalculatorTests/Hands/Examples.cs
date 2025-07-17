@@ -14,10 +14,10 @@ namespace RiichiCalculatorTests
             {
                 Seat = SEAT.E,
                 Dora = new[] { TILE.RD, TILE.GD },
-                WinningTile = TILE.P2 | SEAT.E,
-                Hidden = new[] { TILE.WD, TILE.WD, TILE.WD, TILE.M1, TILE.M2, TILE.M3, TILE.M4, TILE.M5, TILE.M6, TILE.P2 },
+                WinningTile = TILE.D2 | SEAT.E,
+                Hidden = new[] { TILE.WD, TILE.WD, TILE.WD, TILE.C1, TILE.C2, TILE.C3, TILE.C4, TILE.C5, TILE.C6, TILE.D2 },
                 Melds = new[] {
-                    new[] { TILE.M7, TILE.M8 | SEAT.S, TILE.M9 }
+                    new[] { TILE.C7, TILE.C8 | SEAT.S, TILE.C9 }
                 },
                 // PrevalentWind = SEAT.E,
                 // IsLastTile = false,
@@ -43,9 +43,9 @@ namespace RiichiCalculatorTests
             new DealTester()
             {
                 Seat = SEAT.N,
-                Dora = new[] { TILE.P9 },
-                WinningTile = TILE.S7 | SEAT.S,
-                Hidden = new[] { TILE.P1, TILE.P2, TILE.P3, TILE.P5, TILE.P6, TILE.P7, TILE.M7, TILE.M8, TILE.M9, TILE.S5, TILE.S6, TILE.SW, TILE.SW },
+                Dora = new[] { TILE.D9 },
+                WinningTile = TILE.B7 | SEAT.S,
+                Hidden = new[] { TILE.D1, TILE.D2, TILE.D3, TILE.D5, TILE.D6, TILE.D7, TILE.C7, TILE.C8, TILE.C9, TILE.B5, TILE.B6, TILE.SW, TILE.SW },
                 // Melds = new[] {},
                 // PrevalentWind = SEAT.E,
                 // IsLastTile = false,
@@ -71,9 +71,9 @@ namespace RiichiCalculatorTests
             new DealTester()
             {
                 Seat = SEAT.S,
-                Dora = new[] { TILE.P9 },
-                WinningTile = TILE.S7 | SEAT.N,
-                Hidden = new[] { TILE.P1, TILE.P2, TILE.P3, TILE.P5, TILE.P6, TILE.P7, TILE.M7, TILE.M8, TILE.M9, TILE.S5, TILE.S6, TILE.SW, TILE.SW },
+                Dora = new[] { TILE.D9 },
+                WinningTile = TILE.B7 | SEAT.N,
+                Hidden = new[] { TILE.D1, TILE.D2, TILE.D3, TILE.D5, TILE.D6, TILE.D7, TILE.C7, TILE.C8, TILE.C9, TILE.B5, TILE.B6, TILE.SW, TILE.SW },
                 // Melds = new[] {},
                 // PrevalentWind = SEAT.E,
                 // IsLastTile = false,
@@ -97,9 +97,9 @@ namespace RiichiCalculatorTests
             new DealTester()
             {
                 Seat = SEAT.S,
-                Dora = new[] { TILE.P9 },
-                WinningTile = TILE.S7 | SEAT.S,
-                Hidden = new[] { TILE.P1, TILE.P2, TILE.P3, TILE.P5, TILE.P6, TILE.P7, TILE.M7, TILE.M8, TILE.M9, TILE.S5, TILE.S6, TILE.S7, TILE.S7 },
+                Dora = new[] { TILE.D9 },
+                WinningTile = TILE.B7 | SEAT.S,
+                Hidden = new[] { TILE.D1, TILE.D2, TILE.D3, TILE.D5, TILE.D6, TILE.D7, TILE.C7, TILE.C8, TILE.C9, TILE.B5, TILE.B6, TILE.B7, TILE.B7 },
                 // Melds = new[] {},
                 // PrevalentWind = SEAT.E,
                 // IsLastTile = false,

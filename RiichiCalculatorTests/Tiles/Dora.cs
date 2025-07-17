@@ -34,73 +34,73 @@ namespace RiichiCalculatorTests
         [Test]
         public void ManDora()
         {
-            Assert.That(TileExtensions.IndexsFlags(TILE.M1.DoraTileIndex()), Is.EqualTo(TILE.M2));
-            Assert.That(TileExtensions.IndexsFlags(TILE.M2.DoraTileIndex()), Is.EqualTo(TILE.M3));
-            Assert.That(TileExtensions.IndexsFlags(TILE.M3.DoraTileIndex()), Is.EqualTo(TILE.M4));
-            Assert.That(TileExtensions.IndexsFlags(TILE.M4.DoraTileIndex()), Is.EqualTo(TILE.M5));
-            Assert.That(TileExtensions.IndexsFlags(TILE.M5.DoraTileIndex()), Is.EqualTo(TILE.M6));
-            Assert.That(TileExtensions.IndexsFlags(TILE.M6.DoraTileIndex()), Is.EqualTo(TILE.M7));
-            Assert.That(TileExtensions.IndexsFlags(TILE.M7.DoraTileIndex()), Is.EqualTo(TILE.M8));
-            Assert.That(TileExtensions.IndexsFlags(TILE.M8.DoraTileIndex()), Is.EqualTo(TILE.M9));
-            Assert.That(TileExtensions.IndexsFlags(TILE.M9.DoraTileIndex()), Is.EqualTo(TILE.M1));
+            Assert.That(TileExtensions.IndexsFlags(TILE.C1.DoraTileIndex()), Is.EqualTo(TILE.C2));
+            Assert.That(TileExtensions.IndexsFlags(TILE.C2.DoraTileIndex()), Is.EqualTo(TILE.C3));
+            Assert.That(TileExtensions.IndexsFlags(TILE.C3.DoraTileIndex()), Is.EqualTo(TILE.C4));
+            Assert.That(TileExtensions.IndexsFlags(TILE.C4.DoraTileIndex()), Is.EqualTo(TILE.C5));
+            Assert.That(TileExtensions.IndexsFlags(TILE.C5.DoraTileIndex()), Is.EqualTo(TILE.C6));
+            Assert.That(TileExtensions.IndexsFlags(TILE.C6.DoraTileIndex()), Is.EqualTo(TILE.C7));
+            Assert.That(TileExtensions.IndexsFlags(TILE.C7.DoraTileIndex()), Is.EqualTo(TILE.C8));
+            Assert.That(TileExtensions.IndexsFlags(TILE.C8.DoraTileIndex()), Is.EqualTo(TILE.C9));
+            Assert.That(TileExtensions.IndexsFlags(TILE.C9.DoraTileIndex()), Is.EqualTo(TILE.C1));
 
-            Assert.That(TILE.M1.DoraTileIndex(), Is.EqualTo(TILE.M2.TileIndex()));
-            Assert.That(TILE.M2.DoraTileIndex(), Is.EqualTo(TILE.M3.TileIndex()));
-            Assert.That(TILE.M3.DoraTileIndex(), Is.EqualTo(TILE.M4.TileIndex()));
-            Assert.That(TILE.M4.DoraTileIndex(), Is.EqualTo(TILE.M5.TileIndex()));
-            Assert.That(TILE.M5.DoraTileIndex(), Is.EqualTo(TILE.M6.TileIndex()));
-            Assert.That(TILE.M6.DoraTileIndex(), Is.EqualTo(TILE.M7.TileIndex()));
-            Assert.That(TILE.M7.DoraTileIndex(), Is.EqualTo(TILE.M8.TileIndex()));
-            Assert.That(TILE.M8.DoraTileIndex(), Is.EqualTo(TILE.M9.TileIndex()));
-            Assert.That(TILE.M9.DoraTileIndex(), Is.EqualTo(TILE.M1.TileIndex()));
+            Assert.That(TILE.C1.DoraTileIndex(), Is.EqualTo(TILE.C2.TileIndex()));
+            Assert.That(TILE.C2.DoraTileIndex(), Is.EqualTo(TILE.C3.TileIndex()));
+            Assert.That(TILE.C3.DoraTileIndex(), Is.EqualTo(TILE.C4.TileIndex()));
+            Assert.That(TILE.C4.DoraTileIndex(), Is.EqualTo(TILE.C5.TileIndex()));
+            Assert.That(TILE.C5.DoraTileIndex(), Is.EqualTo(TILE.C6.TileIndex()));
+            Assert.That(TILE.C6.DoraTileIndex(), Is.EqualTo(TILE.C7.TileIndex()));
+            Assert.That(TILE.C7.DoraTileIndex(), Is.EqualTo(TILE.C8.TileIndex()));
+            Assert.That(TILE.C8.DoraTileIndex(), Is.EqualTo(TILE.C9.TileIndex()));
+            Assert.That(TILE.C9.DoraTileIndex(), Is.EqualTo(TILE.C1.TileIndex()));
         }
 
         [Test]
         public void PinDora()
         {
-            Assert.That(TileExtensions.IndexsFlags(TILE.P1.DoraTileIndex()), Is.EqualTo(TILE.P2));
-            Assert.That(TileExtensions.IndexsFlags(TILE.P2.DoraTileIndex()), Is.EqualTo(TILE.P3));
-            Assert.That(TileExtensions.IndexsFlags(TILE.P3.DoraTileIndex()), Is.EqualTo(TILE.P4));
-            Assert.That(TileExtensions.IndexsFlags(TILE.P4.DoraTileIndex()), Is.EqualTo(TILE.P5));
-            Assert.That(TileExtensions.IndexsFlags(TILE.P5.DoraTileIndex()), Is.EqualTo(TILE.P6));
-            Assert.That(TileExtensions.IndexsFlags(TILE.P6.DoraTileIndex()), Is.EqualTo(TILE.P7));
-            Assert.That(TileExtensions.IndexsFlags(TILE.P7.DoraTileIndex()), Is.EqualTo(TILE.P8));
-            Assert.That(TileExtensions.IndexsFlags(TILE.P8.DoraTileIndex()), Is.EqualTo(TILE.P9));
-            Assert.That(TileExtensions.IndexsFlags(TILE.P9.DoraTileIndex()), Is.EqualTo(TILE.P1));
+            Assert.That(TileExtensions.IndexsFlags(TILE.D1.DoraTileIndex()), Is.EqualTo(TILE.D2));
+            Assert.That(TileExtensions.IndexsFlags(TILE.D2.DoraTileIndex()), Is.EqualTo(TILE.D3));
+            Assert.That(TileExtensions.IndexsFlags(TILE.D3.DoraTileIndex()), Is.EqualTo(TILE.D4));
+            Assert.That(TileExtensions.IndexsFlags(TILE.D4.DoraTileIndex()), Is.EqualTo(TILE.D5));
+            Assert.That(TileExtensions.IndexsFlags(TILE.D5.DoraTileIndex()), Is.EqualTo(TILE.D6));
+            Assert.That(TileExtensions.IndexsFlags(TILE.D6.DoraTileIndex()), Is.EqualTo(TILE.D7));
+            Assert.That(TileExtensions.IndexsFlags(TILE.D7.DoraTileIndex()), Is.EqualTo(TILE.D8));
+            Assert.That(TileExtensions.IndexsFlags(TILE.D8.DoraTileIndex()), Is.EqualTo(TILE.D9));
+            Assert.That(TileExtensions.IndexsFlags(TILE.D9.DoraTileIndex()), Is.EqualTo(TILE.D1));
 
-            Assert.That(TILE.P1.DoraTileIndex(), Is.EqualTo(TILE.P2.TileIndex()));
-            Assert.That(TILE.P2.DoraTileIndex(), Is.EqualTo(TILE.P3.TileIndex()));
-            Assert.That(TILE.P3.DoraTileIndex(), Is.EqualTo(TILE.P4.TileIndex()));
-            Assert.That(TILE.P4.DoraTileIndex(), Is.EqualTo(TILE.P5.TileIndex()));
-            Assert.That(TILE.P5.DoraTileIndex(), Is.EqualTo(TILE.P6.TileIndex()));
-            Assert.That(TILE.P6.DoraTileIndex(), Is.EqualTo(TILE.P7.TileIndex()));
-            Assert.That(TILE.P7.DoraTileIndex(), Is.EqualTo(TILE.P8.TileIndex()));
-            Assert.That(TILE.P8.DoraTileIndex(), Is.EqualTo(TILE.P9.TileIndex()));
-            Assert.That(TILE.P9.DoraTileIndex(), Is.EqualTo(TILE.P1.TileIndex()));
+            Assert.That(TILE.D1.DoraTileIndex(), Is.EqualTo(TILE.D2.TileIndex()));
+            Assert.That(TILE.D2.DoraTileIndex(), Is.EqualTo(TILE.D3.TileIndex()));
+            Assert.That(TILE.D3.DoraTileIndex(), Is.EqualTo(TILE.D4.TileIndex()));
+            Assert.That(TILE.D4.DoraTileIndex(), Is.EqualTo(TILE.D5.TileIndex()));
+            Assert.That(TILE.D5.DoraTileIndex(), Is.EqualTo(TILE.D6.TileIndex()));
+            Assert.That(TILE.D6.DoraTileIndex(), Is.EqualTo(TILE.D7.TileIndex()));
+            Assert.That(TILE.D7.DoraTileIndex(), Is.EqualTo(TILE.D8.TileIndex()));
+            Assert.That(TILE.D8.DoraTileIndex(), Is.EqualTo(TILE.D9.TileIndex()));
+            Assert.That(TILE.D9.DoraTileIndex(), Is.EqualTo(TILE.D1.TileIndex()));
         }
 
         [Test]
         public void SouDora()
         {
-            Assert.That(TileExtensions.IndexsFlags(TILE.S1.DoraTileIndex()), Is.EqualTo(TILE.S2));
-            Assert.That(TileExtensions.IndexsFlags(TILE.S2.DoraTileIndex()), Is.EqualTo(TILE.S3));
-            Assert.That(TileExtensions.IndexsFlags(TILE.S3.DoraTileIndex()), Is.EqualTo(TILE.S4));
-            Assert.That(TileExtensions.IndexsFlags(TILE.S4.DoraTileIndex()), Is.EqualTo(TILE.S5));
-            Assert.That(TileExtensions.IndexsFlags(TILE.S5.DoraTileIndex()), Is.EqualTo(TILE.S6));
-            Assert.That(TileExtensions.IndexsFlags(TILE.S6.DoraTileIndex()), Is.EqualTo(TILE.S7));
-            Assert.That(TileExtensions.IndexsFlags(TILE.S7.DoraTileIndex()), Is.EqualTo(TILE.S8));
-            Assert.That(TileExtensions.IndexsFlags(TILE.S8.DoraTileIndex()), Is.EqualTo(TILE.S9));
-            Assert.That(TileExtensions.IndexsFlags(TILE.S9.DoraTileIndex()), Is.EqualTo(TILE.S1));
+            Assert.That(TileExtensions.IndexsFlags(TILE.B1.DoraTileIndex()), Is.EqualTo(TILE.B2));
+            Assert.That(TileExtensions.IndexsFlags(TILE.B2.DoraTileIndex()), Is.EqualTo(TILE.B3));
+            Assert.That(TileExtensions.IndexsFlags(TILE.B3.DoraTileIndex()), Is.EqualTo(TILE.B4));
+            Assert.That(TileExtensions.IndexsFlags(TILE.B4.DoraTileIndex()), Is.EqualTo(TILE.B5));
+            Assert.That(TileExtensions.IndexsFlags(TILE.B5.DoraTileIndex()), Is.EqualTo(TILE.B6));
+            Assert.That(TileExtensions.IndexsFlags(TILE.B6.DoraTileIndex()), Is.EqualTo(TILE.B7));
+            Assert.That(TileExtensions.IndexsFlags(TILE.B7.DoraTileIndex()), Is.EqualTo(TILE.B8));
+            Assert.That(TileExtensions.IndexsFlags(TILE.B8.DoraTileIndex()), Is.EqualTo(TILE.B9));
+            Assert.That(TileExtensions.IndexsFlags(TILE.B9.DoraTileIndex()), Is.EqualTo(TILE.B1));
 
-            Assert.That(TILE.S1.DoraTileIndex(), Is.EqualTo(TILE.S2.TileIndex()));
-            Assert.That(TILE.S2.DoraTileIndex(), Is.EqualTo(TILE.S3.TileIndex()));
-            Assert.That(TILE.S3.DoraTileIndex(), Is.EqualTo(TILE.S4.TileIndex()));
-            Assert.That(TILE.S4.DoraTileIndex(), Is.EqualTo(TILE.S5.TileIndex()));
-            Assert.That(TILE.S5.DoraTileIndex(), Is.EqualTo(TILE.S6.TileIndex()));
-            Assert.That(TILE.S6.DoraTileIndex(), Is.EqualTo(TILE.S7.TileIndex()));
-            Assert.That(TILE.S7.DoraTileIndex(), Is.EqualTo(TILE.S8.TileIndex()));
-            Assert.That(TILE.S8.DoraTileIndex(), Is.EqualTo(TILE.S9.TileIndex()));
-            Assert.That(TILE.S9.DoraTileIndex(), Is.EqualTo(TILE.S1.TileIndex()));
+            Assert.That(TILE.B1.DoraTileIndex(), Is.EqualTo(TILE.B2.TileIndex()));
+            Assert.That(TILE.B2.DoraTileIndex(), Is.EqualTo(TILE.B3.TileIndex()));
+            Assert.That(TILE.B3.DoraTileIndex(), Is.EqualTo(TILE.B4.TileIndex()));
+            Assert.That(TILE.B4.DoraTileIndex(), Is.EqualTo(TILE.B5.TileIndex()));
+            Assert.That(TILE.B5.DoraTileIndex(), Is.EqualTo(TILE.B6.TileIndex()));
+            Assert.That(TILE.B6.DoraTileIndex(), Is.EqualTo(TILE.B7.TileIndex()));
+            Assert.That(TILE.B7.DoraTileIndex(), Is.EqualTo(TILE.B8.TileIndex()));
+            Assert.That(TILE.B8.DoraTileIndex(), Is.EqualTo(TILE.B9.TileIndex()));
+            Assert.That(TILE.B9.DoraTileIndex(), Is.EqualTo(TILE.B1.TileIndex()));
         }
     }
 }
